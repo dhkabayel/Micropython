@@ -1,3 +1,6 @@
+
+#yedi segment displayleri Micropython ile çalıştırılmasını sağlar
+
 import gc
 import webrepl
 webrepl.start()
