@@ -1,9 +1,13 @@
+#Önce şifre ve adınızla yerel ağa giriş yapılır
+#artından microWebSrv kullanarak lokal server servisi başlatır
+#aynı yerel ağa bağlananlar IP adresinizi yazarak server içerisinde HTML sayfalarına ulaşabilirler
+
 from microWebSrv import MicroWebSrv
 import utime
 import network
 
-STA_SSID= 'Estare' 
-STA_PSK= 'xerox38*'
+STA_SSID= 'kendiWiFiAdınız' 
+STA_PSK= 'kendiŞifreniz'
 
 def do_connect():
     ap_if = network.WLAN(network.AP_IF)
